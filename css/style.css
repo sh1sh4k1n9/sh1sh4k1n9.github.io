@@ -240,7 +240,8 @@ body.border-dark .main-content:after{
 =======================================================*/
 .section-main{
 	background-size:cover;
-	background-image:url(../img/bg.jpg);
+	background-image:url(../img/into-background.jpg);
+	background-position: top;
 }
 .section-main:before{
 	content: ' ';
@@ -1393,7 +1394,7 @@ body.loaded #preloader .loader{
 		margin-bottom:10px;
 	}
 	.intro-text > h1{
-		font-size:62px;
+		font-size:50px;
 	}
 }
 @media(max-width:550px){

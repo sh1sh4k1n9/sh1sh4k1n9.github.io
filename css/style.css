@@ -96,8 +96,8 @@ body.border-dark .menu-btn > .lines > span{
 	transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	overflow:hidden;
 }
-.menu:hover,
-.menu-btn:hover + .menu{
+.menu:focus,
+.menu-btn:focus + .menu{
 	width:300px;
 }
 .menu > .inner{
@@ -258,6 +258,17 @@ body.border-dark .main-content:after{
 	padding:20px;
 	text-align:center;
 }
+
+.contact-icons {
+	letter-spacing: 5px;
+	font-size: 35px;
+	color: #FFF;
+}
+
+.contact-icons > a {
+	color: #FFF;
+}
+
 .intro-text > h1{
 	margin:0;
 	color:#FFF;

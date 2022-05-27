@@ -96,8 +96,8 @@ body.border-dark .menu-btn > .lines > span{
 	transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	overflow:hidden;
 }
-.menu:focus,
-.menu-btn:focus + .menu{
+.menu:hover,
+.menu-btn:hover + .menu{
 	width:300px;
 }
 .menu > .inner{

@@ -96,7 +96,7 @@ body.border-dark .menu-btn > .lines > span{
 	transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	overflow:hidden;
 }
-.menu:hover,
+.menu:focus,
 .menu-btn:hover + .menu{
 	width:300px;
 

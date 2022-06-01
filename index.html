@@ -704,10 +704,31 @@
                         <h2>Contact <strong class='color'>Me</strong></h2>
                     </div>
 
+
+
+
                     <div class='row'>
                         <div class='col-md-8'>
-                            <div class='form'>
-                                <form id='form' data-toggle='validator' method='post' action='mail.php'>
+                            <form action="post_mail.php" method="post" name="form">
+
+                                <input name="name" type="text" placeholder="Name" required />
+                                <br>
+
+                                <input name="email" type="text" placeholder="Email" required />
+                                <br>
+
+                                <input size="30" name="header" type="text" placeholder="Subject" required />
+                                <br>
+
+                                <textarea cols="32" name="message" rows="5" placeholder="Message" required></textarea>
+                                <br>
+
+                                <input type="submit" value="Send Message" />
+
+                            </form>
+                            <!--Contact form-->
+                            <!--<div class='contact-form'>
+                                <form id='contact-form' data-toggle='validator' method='post' action='mail.php'>
                                     <div id='contact-form-result'></div>
 
                                     <div class='row'>
@@ -747,7 +768,7 @@
                                         </button>
                                     </div>
                                 </form>
-                            </div>
+                            </div>-->
                         </div>
 
                         <div class='col-md-4'>
